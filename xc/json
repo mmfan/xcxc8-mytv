@@ -1,22 +1,4 @@
-Skip to content
-laileslie76
-/
-TVbox
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-TVbox/TVBox
-@laileslie76
-laileslie76 Create TVBox
- 1 contributor
-332 lines (301 sloc)  12.4 KB
+
 #!/user/bin/env python3
 # -*- coding: utf-8 -*-
 import base64
@@ -349,17 +331,3 @@ if __name__ == '__main__':
 #
 https://freed.yuanhsing.cf/TVBox/meowcf.json
 # https://shuyuan.miaogongzi.net/shuyuan/1658731733.json
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

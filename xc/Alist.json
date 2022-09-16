@@ -1,0 +1,392 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "夸克网盘",
+      "index": 0,
+      "type": "Quark",
+      "username": "",
+      "password": "",
+      "refresh_token": "",
+      "access_token": "",
+      "root_folder": "0",
+      "status": "​require login [{0}]",
+      "CronId": 0,
+      "DriveId": "",
+      "limit": 0,
+      "order_by": "file_name",
+      "order_direction": "asc",
+      "updated_at": "2022-09-15T03:18:44.850404339Z",
+      "search": false,
+      "client_id": "",
+      "client_secret": "",
+      "zone": "",
+      "redirect_uri": "",
+      "site_url": "",
+      "site_id": "",
+      "internal_type": "",
+      "webdav_proxy": false,
+      "proxy": false,
+      "webdav_direct": false,
+      "down_proxy_url": "",
+      "api_proxy_url": "",
+      "bucket": "",
+      "endpoint": "",
+      "region": "",
+      "access_key": "",
+      "access_secret": "",
+      "custom_host": "",
+      "extract_folder": "",
+      "bool_1": false,
+      "algorithms": "",
+      "client_version": "",
+      "package_name": "",
+      "user_agent": "",
+      "captcha_token": "",
+      "device_id": ""
+    }
+  ],
+  "settings": [
+    {
+      "key": "title",
+      "value": "Alist",
+      "description": "title",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "logo",
+      "value": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/can_circle.svg",
+      "description": "logo",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "favicon",
+      "value": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg",
+      "description": "favicon",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "icon color",
+      "value": "#1890ff",
+      "description": "icon's color",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "announcement",
+      "value": "This is a test announcement.",
+      "description": "announcement message (support markdown)",
+      "type": "text",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "text types",
+      "value": "txt,htm,html,xml,java,properties,sql,js,md,json,conf,ini,vue,php,py,bat,gitignore,yml,go,sh,c,cpp,h,hpp,tsx,vtt,srt,ass",
+      "description": "text type extensions",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "audio types",
+      "value": "mp3,flac,ogg,m4a,wav,opus",
+      "description": "audio type extensions",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "video types",
+      "value": "mp4,mkv,avi,mov,rmvb,webm,flv,m4v",
+      "description": "video type extensions",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "d_proxy types",
+      "value": "m3u8",
+      "description": "/d but proxy",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "hide files",
+      "value": "/\\/README.md/i",
+      "description": "hide files, support RegExp, one per line",
+      "type": "text",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "music cover",
+      "value": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/circle_center.svg",
+      "description": "music cover image",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "site beian",
+      "value": "",
+      "description": "chinese beian info",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "global readme url",
+      "value": "",
+      "description": "Default display when directory has no readme",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "pdf viewer url",
+      "value": "https://alist-org.github.io/pdf.js/web/viewer.html?file=$url",
+      "description": "",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "autoplay video",
+      "value": "false",
+      "description": "",
+      "type": "bool",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "autoplay audio",
+      "value": "false",
+      "description": "",
+      "type": "bool",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "check parent folder",
+      "value": "false",
+      "description": "check parent folder password",
+      "type": "bool",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "customize head",
+      "value": "",
+      "description": "Customize head, placed at the beginning of the head",
+      "type": "text",
+      "group": 0,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "customize body",
+      "value": "",
+      "description": "Customize script, placed at the end of the body",
+      "type": "text",
+      "group": 0,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "home emoji",
+      "value": "🏠",
+      "description": "emoji in front of home in nav",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "animation",
+      "value": "true",
+      "description": "when there are a lot of files, the animation will freeze when opening",
+      "type": "bool",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "check down link",
+      "value": "false",
+      "description": "check down link password, your link will be 'https://alist.com/d/filename?pw=xxx'",
+      "type": "bool",
+      "group": 1,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "WebDAV username",
+      "value": "admin",
+      "description": "WebDAV username",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "WebDAV password",
+      "value": "yMD9Kfuw",
+      "description": "WebDAV password",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "artplayer whitelist",
+      "value": "*",
+      "description": "refer to https://artplayer.org/document/options#whitelist",
+      "type": "string",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "artplayer autoSize",
+      "value": "true",
+      "description": "refer to https://artplayer.org/document/options#autosize",
+      "type": "bool",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "Visitor WebDAV username",
+      "value": "guest",
+      "description": "Visitor WebDAV username",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "Visitor WebDAV password",
+      "value": "guest",
+      "description": "Visitor WebDAV password",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "load type",
+      "value": "all",
+      "description": "Not recommended to choose to auto load more, it has bugs now",
+      "type": "select",
+      "group": 0,
+      "access": 0,
+      "values": "all,load more,auto load more,pagination",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "default page size",
+      "value": "30",
+      "description": "",
+      "type": "number",
+      "group": 0,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "ocr api",
+      "value": "https://api.nn.ci/ocr/file/json",
+      "description": "Used to identify verification codes",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "enable search",
+      "value": "false",
+      "description": "Experimental function, not recommended as it's still under development",
+      "type": "bool",
+      "group": 1,
+      "access": 0,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "Aria2 RPC url",
+      "value": "http://localhost:6800/jsonrpc",
+      "description": "Aria2 RPC url, e.g. 'http://aria2.example.com:6800/jsonrpc'",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    },
+    {
+      "key": "Aria2 RPC secret",
+      "value": "",
+      "description": "Aria2 RPC secret, e.g. '123456'",
+      "type": "string",
+      "group": 1,
+      "access": 1,
+      "values": "",
+      "version": "v2.6.1-0-geb15bce-dirty"
+    }
+  ],
+  "metas": []
+}
